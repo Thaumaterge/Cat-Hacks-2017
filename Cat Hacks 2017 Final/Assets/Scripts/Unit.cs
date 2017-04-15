@@ -2,18 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Tile : MonoBehaviour {
+public class Unit : MonoBehaviour {
 
     // member variables
-    public int id;
-    
-    // constructor
-    public Tile(int i) {
-        id = i;
+    Tile currentTile;
+
+    public Unit() {
+
     }
-    
+
     void onMouseDown() {
-        Debug.Log("This tile was clicked!");
+        Debug.Log("This unit was clicked!");
     }
 
 	// Use this for initialization
