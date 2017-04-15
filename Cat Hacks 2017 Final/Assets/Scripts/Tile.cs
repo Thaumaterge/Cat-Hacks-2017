@@ -4,6 +4,14 @@ using UnityEngine;
 
 public class Tile : MonoBehaviour {
 
+    // member variables
+    public int id;
+    
+    // constructor
+    public Tile(int i) {
+        id = i;
+    }
+
 	// Use this for initialization
 	void Start () {
 		
